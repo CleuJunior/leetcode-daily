@@ -1,9 +1,9 @@
-package br.com.leetcode.daily.easy;
+package br.com.leetcode.daily.easy.l1;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class Solution {
 
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> sum = new HashMap<>();

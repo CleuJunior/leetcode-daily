@@ -14,7 +14,8 @@ The purpose of this repository is to:
 
 ### LeetCode Challenges:
 
-| Number | Title                                                                                 | Solution                                                                               | Subject       |
-|--------|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------------|
-| 001    | [Two Sum](https://leetcode.com/problems/two-sum/)                                     | [Link Here](br/com/leetcode/daily/easy/l1/Solution.java)                               | `Hashing`     |
-| 206    | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Link Here](leetcodedaily/src/main/java/br/com/leetcode/daily/easy/l260/Solution.java) | `Linked List` |
+| Number | Title                                                                                   | Solution                                                                               | Subject          |
+|--------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|------------------|
+| 001    | [Two Sum](https://leetcode.com/problems/two-sum/)                                       | [Link Here](br/com/leetcode/daily/easy/l1/Solution.java)                               | `Hashing`        |
+| 206    | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)   | [Link Here](leetcodedaily/src/main/java/br/com/leetcode/daily/easy/l260/Solution.java) | `Linked List`    |
+| 643    | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Link Here](java/br/com/leetcode/daily/easy/l643/Solution.java)                        | `Sliding Window` |

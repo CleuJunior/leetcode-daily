@@ -6,6 +6,7 @@ on efficiency and readability.
 
 ### Purpose
 
+.
 The purpose of this repository is to:
 
 - Build consistency in coding practice through daily challenges.
@@ -14,11 +15,12 @@ The purpose of this repository is to:
 
 ### LeetCode Challenges:
 
-| Number | Title                                                                                   | Solution                                                                               | Subject            |
-|--------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------|
-| 001    | [Two Sum](https://leetcode.com/problems/two-sum/)                                       | [Link Here](br/com/leetcode/daily/easy/l1/Solution.java)                               | `Hashing`          |
-| 125    | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                     | [Link Here](java/br/com/leetcode/daily/easy/l125/Solution.java)                        | `Two-Pointer`      |
-| 136    | [Single Number](https://leetcode.com/problems/single-number/description/)               | [Link Here](java/br/com/leetcode/daily/easy/l136/Solution.java)                        | `Bit Manipulation` |
-| 206    | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)   | [Link Here](leetcodedaily/src/main/java/br/com/leetcode/daily/easy/l260/Solution.java) | `Linked List`      |
-| 283    | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                               | [Link Here](leetcodedaily/src/main/java/br/com/leetcode/daily/easy/l260/Solution.java) | `Two Pointers`     |
-| 643    | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Link Here](java/br/com/leetcode/daily/easy/l643/Solution.java)                        | `Sliding Window`   |
+| Number | Title                                                                                   | Solution                                                                               | Subject                                   |
+|--------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|-------------------------------------------|
+| 001    | [Two Sum](https://leetcode.com/problems/two-sum/)                                       | [Link Here](br/com/leetcode/daily/easy/l1/Solution.java)                               | `Hashing`                                 |
+| 125    | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                     | [Link Here](java/br/com/leetcode/daily/easy/l125/Solution.java)                        | `Two-Pointer`                             |
+| 136    | [Single Number](https://leetcode.com/problems/single-number/description/)               | [Link Here](java/br/com/leetcode/daily/easy/l136/Solution.java)                        | `Bit Manipulation`                        |
+| 141    | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                   | [Link Here](java/br/com/leetcode/daily/easy/l136/Solution.java)                        | `Hash Table` `Linked List` `Two Pointers` |
+| 206    | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)   | [Link Here](leetcodedaily/src/main/java/br/com/leetcode/daily/easy/l260/Solution.java) | `Linked List`                             |
+| 283    | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                               | [Link Here](leetcodedaily/src/main/java/br/com/leetcode/daily/easy/l260/Solution.java) | `Two Pointers`                            |
+| 643    | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Link Here](java/br/com/leetcode/daily/easy/l643/Solution.java)                        | `Sliding Window`                          |

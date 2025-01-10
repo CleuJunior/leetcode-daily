@@ -1,4 +1,4 @@
-package br.com.leetcode.daily.l21;
+package br.com.leetcode.daily.easy.l21;
 
 import br.com.leetcode.daily.common.ListNode;
 
@@ -9,7 +9,7 @@ public class Solution {
         ListNode current = dummy;
 
         while (list1 != null && list2 != null) {
-            if (list1.val < list2.val) {
+            if (list1.val <= list2.val) {
                 current.next = list1;
                 current = list1;
                 list1 = list1.next;

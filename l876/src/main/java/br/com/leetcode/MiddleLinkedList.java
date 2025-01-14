@@ -1,10 +1,10 @@
-package br.com.leetcode.daily.easy.l876;
+package br.com.leetcode;
 
-import br.com.leetcode.daily.common.ListNode;
+import br.com.common.ListNode;
 
-public class Solution {
+public class MiddleLinkedList {
 
-    public ListNode middleNode(ListNode head) {
+    public static ListNode middleNode(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
 

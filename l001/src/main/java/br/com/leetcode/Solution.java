@@ -1,10 +1,9 @@
-package br.com.leetcode.daily.easy.l1;
+package br.com.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class Solution {
-
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> sum = new HashMap<>();
         int[] arr = new int[2];
@@ -17,7 +16,7 @@ public class Solution {
                 break;
             }
 
-            sum.put(target-num, index);
+            sum.put(target - num, index);
             index++;
         }
 

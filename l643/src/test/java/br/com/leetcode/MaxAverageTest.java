@@ -9,6 +9,6 @@ class MaxAverageTest {
     @Test
     void sampleTest() {
         assertEquals(12.75, MaxAverage.findMaxAverage(new int[]{1, 12, -5, -6, 50, 3}, 4));
-        assertEquals(1.0, MaxAverage.findMaxAverage(new int[]{5}, 1));
+        assertEquals(5.0, MaxAverage.findMaxAverage(new int[]{5}, 1));
     }
 }

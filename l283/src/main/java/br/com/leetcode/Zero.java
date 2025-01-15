@@ -1,7 +1,8 @@
-package br.com.leetcode.daily.easy.l283;
+package br.com.leetcode;
 
-public class Solution {
-    public void moveZeroes(int[] nums) {
+public class Zero {
+
+    public static void moveZeroes(int[] nums) {
         int lastNonZeroIndex = 0; // Tracks where the next non-zero element should go
 
         // Step 1: Move all non-zero elements to the front

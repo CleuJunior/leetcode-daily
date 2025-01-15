@@ -1,6 +1,6 @@
-package br.com.leetcode.daily.easy.l643;
+package br.com.leetcode;
 
-public class Solution {
+public class MaxAverage {
 
     public static double findMaxAverage(int[] nums, int k) {
         double currentMax = 0d;

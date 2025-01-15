@@ -1,11 +1,10 @@
-package br.com.leetcode.daily.easy;
+package br.com.leetcode;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
-public class ValidAnagram {
+
+public class Anagram {
 
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length())
@@ -15,8 +14,8 @@ public class ValidAnagram {
         Map<Character, Integer> mapT = new HashMap<>();
 
         for (int i = 0; i < s.length(); i++) {
-            mapS.put(s.charAt(i), mapS.getOrDefault(s.charAt(i), 0) + 1);
-            mapT.put(t.charAt(i), mapT.getOrDefault(t.charAt(i), 0) + 1);
+            mapS.merge(s.charAt(i), 1, Integer::sum);
+            mapT.merge(t.charAt(i), 1, Integer::sum);
         }
 
         return mapS.equals(mapT);

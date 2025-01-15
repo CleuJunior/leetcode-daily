@@ -1,8 +1,8 @@
-package br.com.leetcode.daily.easy.l191;
+package br.com.leetcode;
 
-public class Solution {
+public class Hamming {
 
-    public int hammingWeight(int n) {
+    public static int hammingWeight(int n) {
         int count = 0;
 
         while (n != 0) {

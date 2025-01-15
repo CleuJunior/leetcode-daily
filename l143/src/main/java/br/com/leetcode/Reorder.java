@@ -1,10 +1,9 @@
-package br.com.leetcode.daily.medium.l143;
+package br.com.leetcode;
 
-import br.com.leetcode.daily.common.ListNode;
+import br.com.common.ListNode;
 
-public class Solution {
-
-    public void reorderList(ListNode head) {
+public class Reorder {
+    public static void reorderList(ListNode head) {
         if (head == null || head.next == null)
             return;
 

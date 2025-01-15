@@ -1,10 +1,10 @@
-package br.com.leetcode.daily.easy.l260;
+package br.com.leetcode;
 
-import br.com.leetcode.daily.common.ListNode;
+import br.com.common.ListNode;
 
-public class Solution {
+public class Reverse {
 
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
         ListNode prev = null;     // A pointer to the previous node
         ListNode current = head; // A pointer to the current node
 

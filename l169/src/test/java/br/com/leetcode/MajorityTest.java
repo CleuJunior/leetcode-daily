@@ -9,9 +9,8 @@ class MajorityTest {
 
     @Test
     void sampleTest() {
-        assertEquals(2, majorityElement(new int[]{2, 2, 1, 1, 1, 2, 2}));
         assertEquals(3, majorityElement(new int[]{3, 2, 3}));
+        assertEquals(2, majorityElement(new int[]{2, 2, 1, 1, 1, 2, 2}));
         assertEquals(1, majorityElement(new int[]{1}));
     }
-
 }

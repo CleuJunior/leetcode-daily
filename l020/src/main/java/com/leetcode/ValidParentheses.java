@@ -1,4 +1,4 @@
-package br.com.leetcode.daily.easy;
+package com.leetcode;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -12,7 +12,7 @@ public class ValidParentheses {
 
         for (char c : s.toCharArray()) {
             if (closeToOpen.containsKey(c)) {
-                if (!closeToOpen.isEmpty() && closeToOpen.get(c).equals(stack.peek())) {
+                if (closeToOpen.get(c).equals(stack.peek())) {
                     stack.pop();
                 } else
                     return false;

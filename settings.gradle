@@ -3,6 +3,7 @@ rootProject.name = 'leetcode-daily'
 include 'l001',
         'l003',
         'l019',
+        'l020',
         'l021',
         'l125',
         'l136',

@@ -2,10 +2,12 @@ rootProject.name = 'leetcode-daily'
 
 include 'l001',
         'l003',
+        'l014',
         'l019',
         'l020',
         'l021',
         'l022',
+        'l058',
         'l084',
         'l125',
         'l136',
@@ -27,4 +29,3 @@ include 'l001',
         'l876',
         'common',
         "dsa"
-include 'l014'

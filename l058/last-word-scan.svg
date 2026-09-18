@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" font-family="monospace">
+  <rect x="0" y="0" width="400" height="180" fill="#0d1117"/>
+
+  <text x="20" y="20" fill="#c9d1d9" font-size="13">s = " sky lab "  (backward scan)</text>
+
+  <!-- boxes -->
+  <g stroke="#30363d" stroke-width="1.5" fill="none">
+    <rect x="20"  y="60" width="40" height="50"/>
+    <rect x="60"  y="60" width="40" height="50"/>
+    <rect x="100" y="60" width="40" height="50"/>
+    <rect x="140" y="60" width="40" height="50"/>
+    <rect x="180" y="60" width="40" height="50"/>
+    <rect x="220" y="60" width="40" height="50"/>
+    <rect x="260" y="60" width="40" height="50"/>
+    <rect x="300" y="60" width="40" height="50"/>
+    <rect x="340" y="60" width="40" height="50"/>
+  </g>
+
+  <!-- chars -->
+  <g fill="#c9d1d9" font-size="18" text-anchor="middle">
+    <text x="40"  y="90">&#183;</text>
+    <text x="80"  y="90">s</text>
+    <text x="120" y="90">k</text>
+    <text x="160" y="90">y</text>
+    <text x="200" y="90">&#183;</text>
+    <text x="240" y="90">l</text>
+    <text x="280" y="90">a</text>
+    <text x="320" y="90">b</text>
+    <text x="360" y="90">&#183;</text>
+  </g>
+  <g fill="#6e7681" font-size="11" text-anchor="middle">
+    <text x="40"  y="122">0</text>
+    <text x="80"  y="122">1</text>
+    <text x="120" y="122">2</text>
+    <text x="160" y="122">3</text>
+    <text x="200" y="122">4</text>
+    <text x="240" y="122">5</text>
+    <text x="280" y="122">6</text>
+    <text x="320" y="122">7</text>
+    <text x="360" y="122">8</text>
+  </g>
+
+  <!-- moving pointer (highlight + arrow), local coords span 0..40 -->
+  <g transform="translate(340,0)">
+    <animateTransform attributeName="transform" type="translate"
+      values="340,0;300,0;260,0;220,0;180,0;180,0"
+      keyTimes="0;0.2;0.4;0.6;0.8;1"
+      calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+
+    <rect x="0" y="60" width="40" height="50" opacity="0.3" fill="#e63946">
+      <animate attributeName="fill"
+        values="#e63946;#2a9d8f;#2a9d8f;#2a9d8f;#6c757d;#6c757d"
+        keyTimes="0;0.2;0.4;0.6;0.8;1"
+        calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </rect>
+
+    <polygon points="12,38 28,38 20,58" fill="#e63946">
+      <animate attributeName="fill"
+        values="#e63946;#2a9d8f;#2a9d8f;#2a9d8f;#6c757d;#6c757d"
+        keyTimes="0;0.2;0.4;0.6;0.8;1"
+        calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </polygon>
+
+    <text x="20" y="30" fill="#c9d1d9" font-size="12" text-anchor="middle">i</text>
+  </g>
+
+  <!-- phase label -->
+  <g font-size="14" text-anchor="start">
+    <text x="20" y="150" fill="#e63946">
+      skipping trailing spaces
+      <animate attributeName="opacity" values="1;0;0;0;0;0" keyTimes="0;0.2;0.4;0.6;0.8;1" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="20" y="150" fill="#2a9d8f">
+      counting last word
+      <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.2;0.4;0.6;0.8;1" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="20" y="150" fill="#6c757d">
+      hit space, stop
+      <animate attributeName="opacity" values="0;0;0;0;1;1" keyTimes="0;0.2;0.4;0.6;0.8;1" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- len counter -->
+  <g font-size="16" font-weight="bold" text-anchor="start">
+    <text x="280" y="150" fill="#c9d1d9">len = 0
+      <animate attributeName="opacity" values="1;0;0;0;0;0" keyTimes="0;0.2;0.4;0.6;0.8;1" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="280" y="150" fill="#c9d1d9">len = 1
+      <animate attributeName="opacity" values="0;1;0;0;0;0" keyTimes="0;0.2;0.4;0.6;0.8;1" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="280" y="150" fill="#c9d1d9">len = 2
+      <animate attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;0.2;0.4;0.6;0.8;1" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="280" y="150" fill="#c9d1d9">len = 3
+      <animate attributeName="opacity" values="0;0;0;1;1;1" keyTimes="0;0.2;0.4;0.6;0.8;1" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="20" y="172" fill="#6e7681" font-size="11">lengthOfLastWord(" sky lab ") = 3</text>
+</svg>
